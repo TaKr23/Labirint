@@ -29,6 +29,7 @@ class Player(GameSprite):
       self.x_speed = player_x_speed
       self.y_speed = player_y_speed
 
+      
   def update(self):
        ''' перемещает персонажа, применяя текущую горизонтальную и вертикальную скорость'''
        # сначала движение по горизонтали
